@@ -1,0 +1,733 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html ,body {
+        margin: 0px;
+        padding: 0px;
+        width: 100%;
+        height: 100%;
+    }
+
+    .header-1{
+        width: 100%;
+        height: 6vw;
+        background-color: #1C1E53;
+        display: flex;
+        align-items: center;
+    }
+
+    .he-1left{
+        width: 30%;
+    }
+
+    .he-1right{
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .fn{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-size: 2vw;
+    }
+
+    .home{
+        color: white;
+        font-size: 1vw;
+        text-decoration: auto;
+    }
+
+    .ab{
+        color:#BBBBCB ;
+        font-size: 1vw; 
+        text-decoration: auto;
+    }
+
+    .cont{
+        border-style: solid;
+        width: 13%;
+        height: 2vw;
+        font-size: 1vw;
+        border-radius: 25px;
+        color: white;
+        border-width: 1px;
+        border-color: #BBBBCB;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: auto;
+        }
+
+
+
+
+        .header-2{
+            width: 100%;
+            height: 55vw;
+        }
+
+        .sicariele-50{
+            width: 100%;
+            height: 4vw;
+        }
+
+        .txt-1{
+            display: flex;
+            justify-content: center;
+            font-size: 3vw;
+        }
+
+        .txt-2{
+            display: flex;
+            justify-content: center;
+            font-size: 1vw;
+        }
+
+        .borderebisatvis{
+            width: 100%;
+            height: 40vw;
+            display: flex;
+            justify-content: space-evenly;
+        }
+
+        .bigborder-1{
+            width: 20%;
+            background-color:#F4F6FC;
+            border-radius: 0.5vw;
+        }
+
+        .sicariele-51{
+            width: 100%;
+            height: 2vw;
+        }
+
+        .minidiv{
+            display: flex;
+            align-items: center;
+        }
+
+        .dolari{
+          font-size: 2vw;
+          padding-left: 2vw;
+        }
+
+        .per{
+            color: blue;
+            font-size: 1vw;
+            padding-left: 2vw;
+        }
+
+        .lan{
+            font-size: 2vw;
+            padding-left: 2vw;
+        }
+
+        .when{
+            font-size: 1vw;
+            padding-left: 2vw;
+            color: #282938;
+            padding-top: 1vw;
+        }
+
+        .proto{
+            font-size: 1vw;
+            padding-left: 2vw;
+            color: #282938;
+        }
+
+        .mdiv{
+            display: flex;
+            align-items: center;
+            padding-left: 2vw;
+        }
+
+        .isari{
+            width: 1vw;
+        }
+
+        .all{
+            padding-left: 2vw;
+            font-size: 1vw;
+        }
+
+        .sicariele-53{
+            width: 100%;
+            height: 1vw;
+        }
+
+        .button{
+            width: 100%;
+            height: 6vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .gettstt{
+            border-style: solid;
+            width: 8vw;
+            height: 3vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5vw;
+            border-radius: 2vw;
+            background-color: black;
+            color: white;
+            border-color: black;
+        }
+
+        .bigborder-2{
+            width: 20%;
+            background-color: #1C1E53;
+            border-radius: 0.5vw;
+        }
+
+        .dolario{
+          font-size: 2vw;
+          padding-left: 2vw;
+          color: white;
+        }
+
+        .mult{
+            color: #FCD980;
+            font-size: 1vw;
+            padding-left: 2vw;
+        }
+
+        .web{
+            font-size: 2vw;
+            padding-left: 2vw;
+            color: white;
+        }
+
+        .all-1{
+            padding-left: 2vw;
+            font-size: 1vw;
+            color: white; 
+        }
+
+        .getst{
+            border-style: solid;
+            width: 8vw;
+            height: 3vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5vw;
+            border-radius: 2vw;
+            background-color: #FCD980;
+            color: black;
+            border-color: #FCD980; 
+        }
+
+        .when-1{
+            font-size: 1vw;
+            padding-left: 2vw;
+            color: white;
+            padding-top: 1vw;
+        }
+
+        .proto-1{
+            font-size: 1vw;
+            padding-left: 2vw;
+            color: white;
+        }
+
+
+
+
+
+
+        .header-7{
+            width: 100%;
+            height: 40vw;
+            display: flex;
+        }
+
+        .hea-7left{
+            width: 35%;
+        }
+
+
+        .sicariele-21{
+            width: 100%;
+            height: 10vw;
+        }
+
+        .fre{
+            font-size: 2vw;
+            width: 40%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .ask{
+            font-size: 2vw;
+            width: 49%;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .sicariele-22{
+            width: 100%;
+            height: 1vw;
+        }
+
+        .con{
+            font-size: 1vw;
+            display: flex;
+            justify-content: flex-end;
+            width: 44%;
+            color: #2405F2;
+        }
+
+
+
+        .hea-7right{
+            width: 65%;
+        }
+
+        .he-7l{
+            display: flex;
+            justify-content: space-between;
+            width: 49%;
+        }
+
+        .noli{
+            font-size: 2vw;
+            color: #2405F2;
+        }
+
+        .ho{
+            font-size: 2vw;
+            color: #282938;
+        }
+
+        .sicariele-23{
+            width: 100%;
+            height: 1vw;
+        }
+
+        .lll{
+            font-size: 1vw;
+            width: 52%;
+            display: flex;
+            justify-content: flex-end;
+            color: #282938;
+        }
+
+
+        .llll{
+            font-size: 1vw;
+            width: 55%;
+            display: flex;
+            justify-content: flex-end;
+            color: #282938;
+        }
+
+        .sicariele-24{
+            width: 100%;
+            height: 3vw;
+        }
+
+        .he-7l-2{
+            display: flex;
+            justify-content: space-between;
+            width: 62%;
+        }
+
+        .sicariele-25{
+            width: 100%;
+            height: 3vw;
+        }
+
+        .he-7l-3{
+            display: flex;
+            justify-content: space-between;
+            width: 44%; 
+        }
+
+        .he-7l-4{
+            display: flex;
+            justify-content: space-between;
+            width: 66%;
+        }
+
+        .he-7l-5{
+            display: flex;
+            justify-content: space-between;
+            width: 62%;
+        }
+
+
+
+
+        .header-10{
+            width: 100%;
+            height: 26vw;
+            background-color: #1C1E53;
+            display: flex;
+        }
+
+        .he-10lef{
+            width: 50%;
+            background-color: #1C1E53;
+        }
+
+        .he-10righ{
+            width: 50%;
+        }
+
+        .sicariele-32{
+            width: 100%;
+            height: 6vw;
+        }
+
+        .ffii{
+            font-size: 3vw;
+            width: 35%;
+            color: white;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .wwee{
+            color: white;
+            font-size: 1vw;
+            display: flex;
+            justify-content: flex-end;
+            width: 51%;
+        }
+
+        .iimm{
+            font-size: 1vw;
+            display: flex;
+            justify-content: flex-end;
+            color: white;
+            width: 38%;
+        }
+
+        .sachiro{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            height: 6vw;
+        }
+
+        .last{
+            width: 50%;
+            display: flex;
+        }
+
+        .sicariele-33{
+            width: 100%;
+            height: 6vw;
+        }
+
+        .l-le{
+            width: 50%;
+            background-color: #FCD980;
+            border-color: #FCD980;
+        }
+
+        .sicariele-34{
+            height: 1vw;
+        }
+
+        .email{
+            font-size: 2vw;
+            color: #282938;
+        }
+
+        .contact{
+            font-size: 1vw;
+            padding-top: 1vw;
+            color: #282938;
+        }
+
+        .l-ri{
+            width: 50%;
+            background-color: #FCD980;
+            border-color: #FCD980;
+        }
+
+        .lllll{
+            font-size: 3vw;
+            width: 35%;
+            color: white;
+        }
+
+        .wwee-1{         
+            font-size: 1vw;
+            color: white;
+        }
+
+        .im-1{
+            font-size: 1vw;
+            color: white;
+        }
+
+        .ux{
+            font-size: 1vw;
+            color: white;
+        }
+
+        .sicarielebolo{
+            width: 100%;
+            height: 4vw;
+        }
+
+        .lastdiv{
+            width: 18%;
+            height: 4vw;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .m{
+            width: 2vw;
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <div class="header-1">
+        <div class="he-1left">
+            <h1 class="fn">{finsweet</h1>
+        </div>
+        <div class="he-1right">
+               <a class="home" href="./index.html">Home</a>   
+               <a class="ab" href="aboutus.html">About us</a>
+               <a class="ab" href="">Pricing</a>
+               <a class="ab" href="./features.html">Features</a>
+               <a class="ab" href="./redblog.html">Read Blog</a>
+               <a class="ab" href="./blog.html">Blog</a>
+               <a class="cont" href="./conect.html">Contact us</a>   
+        </div>
+    </div>
+
+    <div  class="header-2">
+         <div class="sicariele-50"></div>
+         <div class="txt-1">Our Pricing Plans</div>
+         <div class="txt-2">When you’re ready to go beyond prototyping in Figma, Webflow is </div>
+         <div class="txt-2">ready to help you bring your designs to life — without coding them.</div>
+         <div class="sicariele-50"></div>
+         <div class="borderebisatvis">
+                <div class="bigborder-1">
+                                <div class="sicariele-51"></div>
+                                <div class="minidiv">
+                                    <div class="dolari">$299</div>
+                                    <div class="per">per Design</div>
+                                </div>
+                                <div class="sicariele-51"></div>
+                                <div class="lan">Landing Page</div>
+                                <div class="when">When you’re ready to go beyond</div>
+                                <div class="proto">prototyping in Figma,</div>
+                                <div class="sicariele-51"></div>
+                                <div class="sicariele-51"></div>
+                                <div class="mdiv">
+                                    <img class="isari" src="./img/Pointer.png" alt="">
+                                    <div class="all">All limited links</div>
+                                </div>
+                                <div class="sicariele-53"></div>
+                                <div class="mdiv">
+                                    <img class="isari" src="./img/Pointer.png" alt="">
+                                    <div class="all">Own analytics platform</div>
+                                </div>
+                            <div class="sicariele-53"></div>
+                            <div class="mdiv">
+                                <img class="isari" src="./img/Pointer.png" alt="">
+                                <div class="all">Chat support</div>
+                            </div>
+                            <div class="sicariele-53"></div>
+                            <div class="mdiv">
+                                <img class="isari" src="./img/Pointer (1).png" alt="">
+                                <div class="all">Optimize hashtags</div>
+                            </div>
+                            <div class="sicariele-53"></div>
+                            <div class="mdiv">
+                                <img class="isari" src="./img/Pointer (1).png" alt="">
+                                <div class="all">Unlimited users</div>
+                            </div>
+                            <div class="sicariele-51"></div>
+                            <div class="button">
+                                 <div class="gettstt">Get started</div>
+                            </div>
+                    </div>
+                    <div class="bigborder-2">
+                        <div class="sicariele-51"></div>
+                        <div class="minidiv">
+                            <div class="dolario">$399</div>
+                            <div class="mult">Multi Design</div>
+                        </div>
+                        <div class="sicariele-51"></div>
+                        <div class="web">Website Page</div>
+                        <div class="when-1">When you’re ready to go beyond</div>
+                        <div class="proto-1">prototyping in Figma,</div>
+                        <div class="sicariele-51"></div>
+                        <div class="sicariele-51"></div>
+                        <div class="mdiv">
+                            <img class="isari" src="./img/Pointer.png" alt="">
+                            <div class="all-1">All limited links</div>
+                        </div>
+                        <div class="sicariele-53"></div>
+                        <div class="mdiv">
+                            <img class="isari" src="img/Pointer.png" alt="">
+                            <div class="all-1">Own analytics platform</div>
+                        </div>
+                    <div class="sicariele-53"></div>
+                    <div class="mdiv">
+                        <img class="isari" src="./img/Pointer.png" alt="">
+                        <div class="all-1">Chat support</div>
+                    </div>
+                    <div class="sicariele-53"></div>
+                    <div class="mdiv">
+                        <img class="isari" src="./img/Pointer.png" alt="">
+                        <div class="all-1">Optimize hashtags</div>
+                    </div>
+                    <div class="sicariele-53"></div>
+                    <div class="mdiv">
+                        <img class="isari" src="./img/Pointer.png" alt="">
+                        <div class="all-1">Unlimited users</div>
+                    </div>
+                    <div class="sicariele-51"></div>
+                    <div class="button">
+                        <div class="getst">Get started</div>
+                    </div>
+                </div>
+                <div class="bigborder-1">
+                    <div class="sicariele-51"></div>
+                                <div class="minidiv">
+                                    <div class="dolari">$499 +</div>
+                                    <div class="per">per Design</div>
+                                </div>
+                                <div class="sicariele-51"></div>
+                                <div class="lan">Complex Project</div>
+                                <div class="when">When you’re ready to go beyond</div>
+                                <div class="proto">prototyping in Figma,</div>
+                                <div class="sicariele-51"></div>
+                                <div class="sicariele-51"></div>
+                                <div class="mdiv">
+                                    <img class="isari" src="./img/Pointer.png" alt="">
+                                    <div class="all">All limited links</div>
+                                </div>
+                                <div class="sicariele-53"></div>
+                                <div class="mdiv">
+                                    <img class="isari" src="./img/Pointer.png" alt="">
+                                    <div class="all">Own analytics platform</div>
+                                </div>
+                            <div class="sicariele-53"></div>
+                            <div class="mdiv">
+                                <img class="isari" src="./img/Pointer.png" alt="">
+                                <div class="all">Chat support</div>
+                            </div>
+                            <div class="sicariele-53"></div>
+                            <div class="mdiv">
+                                <img class="isari" src="./img/Pointer.png" alt="">
+                                <div class="all">Optimize hashtags</div>
+                            </div>
+                            <div class="sicariele-53"></div>
+                            <div class="mdiv">
+                                <img class="isari" src="./img/Pointer.png" alt="">
+                                <div class="all">Unlimited users</div>
+                            </div>
+                            <div class="sicariele-51"></div>
+                            <div class="button">
+                                 <div class="gettstt">Contact us</div>
+                            </div>
+                </div>
+         </div>
+    </div>
+
+
+    <div class="header-7">
+        <div class="hea-7left">
+              <div class="sicariele-21"></div>
+              <div class="fre">Frequently</div>
+              <div class="ask">asked quastion</div>
+              <div class="sicariele-22"></div>
+              <div class="con">Contact us for more info</div>
+        </div>
+       
+      <div class="hea-7right">
+                     <div class="sicariele-21"></div>
+          <div class="he-7l">
+                 <div class="noli">01</div>
+                 <div class="ho">How much time does it take?</div>
+          </div>
+             <div class="sicariele-23"></div>
+             <div class="lll">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </div>
+             <div class="llll">sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+             <div class="sicariele-24"></div>
+          <div class="he-7l-2">
+                        <div class="noli">02</div>
+                        <div class="ho">What is your class naming convention?</div>
+          </div>
+          <div class="sicariele-25"></div>
+          <div class="he-7l-3">
+                          <div class="noli">03</div>
+                          <div class="ho">How do you comunicate</div>
+          </div>
+          <div class="sicariele-25"></div>
+          <div class="he-7l-4">
+                      <div class="noli">04</div>
+                      <div class="ho">I have a bigger project. Can you handle it?</div>
+          </div>
+          <div class="sicariele-25"></div>
+          <div class="he-7l-5">
+              <div class="noli">05</div>
+              <div class="ho">What is your class naming convention?</div>
+          </div>
+      </div>
+</div>
+
+<div class="header-10">
+    <div class="he-10lef">
+         <div class="sicariele-32"></div>
+         <div class="ffii">{finsweet</div>
+         <div class="sicariele-31"></div>
+         <div class="wwee">We are always open to discuss your project and</div>
+         <div class="iimm">improve your online presence.</div>
+         <div class="sicariele-33"></div>
+         <div class="sachiro">
+             <div class="last">
+                 <div class="l-le">
+                     <div class="sicariele-34"></div>
+                     <div class="email">Email me at</div>
+                     <div class="contact">contact@website.com</div>
+                 </div>
+                 <div class="l-ri">
+                     <div class="sicariele-34"></div>
+                     <div class="email">Call us</div>
+                     <div class="contact">0927 6277 28525</div>
+                 </div>
+             </div>
+         </div>
+    </div>
+    <div class="he-10righ">
+                 <div class="sicariele-32"></div>
+                 <div class="lllll">Lets Talk</div>
+                 <div class="sicariele-31"></div>
+                 <div class="wwee-1">We are always open to discuss your project,</div>
+                 <div class="im-1">improve your online presence and help with your </div>
+                 <div class="ux">UX/UI design challenges.</div>
+                 <div class="sicarielebolo"></div>
+                 <div class="lastdiv">
+                        <a href="https://www.facebook.com/"><img class="m" src="./img/f.png" alt=""></a>
+                        <a href="https://twitter.com/?lang=en"><img class="m" src="./img/t.png" alt=""></a>
+                        <a href="https://www.instagram.com/"><img class="m" src="./img/in.png" alt=""></a>
+                 </div>
+    </div>
+</div>
+</body>
+</html>
